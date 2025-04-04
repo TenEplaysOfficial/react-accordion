@@ -56,9 +56,11 @@
     "build": "rollup -c --bundleConfigAsCjs",
     "prettier": "prettier --write .",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "build-storybook": "storybook build",
+    "preview-storybook": "npx serve storybook-static"
   },
   "dependencies": {
+    "@storybook/addon-docs": "^8.6.12",
     "motion": "^12.6.2",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
