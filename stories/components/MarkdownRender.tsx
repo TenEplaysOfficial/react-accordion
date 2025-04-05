@@ -69,8 +69,20 @@ export const MarkdownRender: FC<MarkdownRenderProps> = ({ content }) => {
   };
 
   return (
-    <ReactMarkdown components={components} rehypePlugins={[rehypeRaw]}>
-      {content}
-    </ReactMarkdown>
+    <>
+      <ReactMarkdown components={components} rehypePlugins={[rehypeRaw]}>
+        {content}
+      </ReactMarkdown>
+      <style>
+        {`
+        .badge-wrapper > p {
+          display: flex;
+          flex-wrap: wrap;
+          align-items: center;
+          gap: 5px;
+          }
+        `}
+      </style>
+    </>
   );
 };

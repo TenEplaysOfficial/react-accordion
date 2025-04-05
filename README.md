@@ -1,14 +1,5 @@
 # React Accordion
 
-<style>
-  .badge-wrapper > p {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    gap: 5px;
-  }
-</style>
-
 <div class="badge-wrapper">
 
 [![npm](https://img.shields.io/npm/v/@tenedev/react-accordion?color=blue&label=NPM&logo=npm&style=flat-square)](https://www.npmjs.com/package/@tenedev/react-accordion)
