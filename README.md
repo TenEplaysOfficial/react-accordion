@@ -1,21 +1,79 @@
 # React Accordion
 
-- A lightweight and accessible React accordion component with smooth animations using Motion. Built with TypeScript and styled with Tailwind CSS, it supports controlled and uncontrolled modes, multiple open items, and customizable icons.
+<style>
+  .badge-wrapper > p {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 5px;
+  }
+</style>
 
-- This package is designed to be easy to use and integrate into your projects, providing a seamless user experience. The component is fully customizable, allowing you to tailor it to your specific design needs. With its focus on accessibility and performance, this accordion component is a great choice for any React application.
+<div class="badge-wrapper">
 
-## **Prerequisites**
+[![npm](https://img.shields.io/npm/v/@tenedev/react-accordion?color=blue&label=NPM&logo=npm&style=flat-square)](https://www.npmjs.com/package/@tenedev/react-accordion)
+[![downloads](https://img.shields.io/npm/dt/@tenedev/react-accordion?color=blue&label=Downloads&logo=archive&style=flat-square)](https://www.npmjs.com/package/@tenedev/react-accordion)
+![size](https://img.shields.io/bundlephobia/minzip/@tenedev/react-accordion?style=flat-square&label=Size&logo=webpack&color=blue)
+![maintenance](https://img.shields.io/maintenance/active/2025?style=flat-square&label=Maintained&logo=calendar&color=blue)
+![Node.js](https://img.shields.io/badge/Node.js-%3E%3D16-blue?logo=node.js&style=flat-square)
+[![Storybook](https://img.shields.io/badge/Storybook-Live%20Docs-blue?logo=storybook&style=flat-square)](https://teneplaysofficial.github.io/react-accordion/?path=/docs/introduction--docs)
+[![contribute](https://img.shields.io/badge/Contribute-Open%20PRs-blue?style=flat-square&logo=git)](https://github.com/TenEplaysOfficial/react-accordion/pulls)
+[![stars](https://img.shields.io/github/stars/TenEplaysOfficial/react-accordion?style=flat-square&label=Stars&logo=github)](https://github.com/TenEplaysOfficial/react-accordion)
+![forks](https://img.shields.io/github/forks/TenEplaysOfficial/react-accordion?style=flat-square&label=Forks&logo=github)
+[![issues](https://img.shields.io/github/issues/TenEplaysOfficial/react-accordion?style=flat-square&label=Issues&logo=github&color=blue)](https://github.com/TenEplaysOfficial/react-accordion/issues)
+[![last commit](https://img.shields.io/github/last-commit/TenEplaysOfficial/react-accordion?style=flat-square&label=Last%20Commit&logo=github&color=blue)](https://github.com/TenEplaysOfficial/react-accordion)
+![workflow](https://img.shields.io/github/actions/workflow/status/TenEplaysOfficial/react-accordion/publish.yml?style=flat-square&label=Build&logo=githubactions&color=blue)
+![license](https://img.shields.io/github/license/TenEplaysOfficial/react-accordion?style=flat-square&label=License&logo=open-source-initiative&color=blue)
 
-- [Node.js](https://nodejs.org/) (version 16 or higher)
-- [Motion](https://motion.dev/)
-- [Tailwind CSS](https://tailwindcss.com/)
+</div>
 
-### Installation
+A **lightweight, accessible** React accordion component with smooth animations. Built using **TypeScript**, smooth animations with **Motion** and styled with **Tailwind CSS**, this component supports:
 
-Run the following command to install the required dependencies:
+- Controlled and uncontrolled modes
+- Multiple open items
+- Customizable icons
+- Fully themeable and easy to integrate
+
+Designed with **performance** and **accessibility** in mind, this accordion is perfect for React applications.
+
+<!-- ## 🖼️ Preview
+
+![img]() -->
+
+## 🚀 **Features**
+
+- ⚙️ Easy to integrate
+- 🧩 Fully customizable styles and icons
+- ♿ Accessibility-first design
+- 💨 Smooth animations using Motion
+
+## 📦 **Prerequisites**
+
+Before using the component, make sure your project includes the following:
+
+- [React](https://react.dev/) `v19.1.0 or higher`
+- [ReactDOM](https://react.dev/) `v19.1.0 or higher`
+- [Motion](https://motion.dev/) – for animation
+- [Tailwind CSS](https://tailwindcss.com/) – for styling
+- [Node.js](https://nodejs.org/) `v16 or higher`
+
+> These are required as **peer dependencies**, so you'll need to have them installed in your project.
+
+## 📥 **Installation**
+
+Install the required dependencies:
 
 ```bash
 npm install motion tailwindcss
 ```
 
-## **Usage**
+Then install the accordion package:
+
+```bash
+npm install @tenedev/react-accordion
+```
+
+> 💡 **Note:**  
+> **react**, **react-dom**, **motion**, and **tailwindcss** are **peer dependencies**. This ensures your app shares a single copy of them with the library. Tailwind requires framework specific configuration (Vite, Next.js, etc.). Make sure to follow the official guide: [Tailwind CSS Installation Docs](https://tailwindcss.com/docs/installation/)
+
+## 🛠️ Usage
